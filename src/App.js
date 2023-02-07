@@ -10,7 +10,7 @@ import Conaction from "./component/main/conaction/Conaction";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Introduction />
       <OurServices />

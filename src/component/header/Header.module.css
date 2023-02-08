@@ -12,7 +12,7 @@
   background: linear-gradient(
       177.86deg,
       #000000 -41.81%,
-      rgba(0, 0, 0, 0.0001) 82.48%
+      rgba(0, 0, 0, 0.0001) 100%
     ),
     url(../../assets/images/header_background.png);
 }
@@ -34,6 +34,12 @@
 }
 
 .nav_bar__item {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.94px;
   margin-left: 58px;
   color: var(--light-color);
   position: relative;
@@ -46,12 +52,12 @@
   bottom: -3px;
   width: 0%;
   height: 2px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
-.nav_bar__item:hover::after{
+.nav_bar__item:hover::after {
   width: 100%;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 .title_wrapper {

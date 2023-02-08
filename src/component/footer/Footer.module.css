@@ -27,6 +27,10 @@
   opacity: 0.5;
 }
 
+.contacts_info_text{
+  margin-bottom: 10px;
+}
+
 .contacts_phone_and_number {
   display: flex;
   margin-bottom: 39px;

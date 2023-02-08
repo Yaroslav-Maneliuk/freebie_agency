@@ -10,10 +10,13 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(
-      177.86deg,
-      #000000 -41.81%,
-      rgba(0, 0, 0, 0.0001) 100%
+      270deg,
+      #000000 -17.62%,
+      rgba(0, 0, 0, 0.0001) 82.37%
     ),
+    linear-gradient(87.84deg, #000000 8.34%, rgba(0, 0, 0, 0.0001) 71.65%),
+    linear-gradient(2.34deg, #000000 -44.57%, rgba(0, 0, 0, 0.0001) 17.83%),
+    linear-gradient(177.86deg, #000000 -41.81%, rgba(0, 0, 0, 0.0001) 82.48%),
     url(../../assets/images/header_background.png);
 }
 

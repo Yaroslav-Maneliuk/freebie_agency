@@ -1,8 +1,9 @@
 import React from 'react'
+import "./index.css"
 
 const Conaction = () => {
   return (
-    <div>Conaction</div>
+    <div className='conaction'>Conaction</div>
   )
 }
 

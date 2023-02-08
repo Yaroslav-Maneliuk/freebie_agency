@@ -1,0 +1,55 @@
+.wrapper,
+.contacts_info {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts_info {
+  width: 100%;
+  padding-top: 142px;
+  padding-bottom: 82px;
+  background-color: #2e2e2e;
+}
+
+.contacts_phone_and_number,
+.contacts_info_text,
+.reserved p {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.832px;
+  color: var(--light-color);
+  opacity: 0.5;
+}
+
+.contacts_phone_and_number {
+  display: flex;
+  margin-bottom: 39px;
+}
+
+.contacts_phone_and_number p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.reserved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #252525;
+}
+
+.social_media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 140px;
+}

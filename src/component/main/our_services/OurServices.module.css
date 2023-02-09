@@ -1,6 +1,8 @@
 .wrapper {
   width: 1800px;
   background-color: #fbfbfb;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .services_module {

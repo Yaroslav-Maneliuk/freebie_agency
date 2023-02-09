@@ -1,0 +1,147 @@
+.wrapper {
+  width: 1800px;
+  background-color: #fbfbfb;
+}
+
+.services_module {
+  width: 1175px;
+  padding-top: 129px;
+  padding-bottom: 136px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.services_title {
+  margin-bottom: 94px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 3.072px;
+  color: #252525;
+  text-transform: capitalize;
+}
+
+.services_title::after {
+  content: "";
+  display: block;
+  bottom: 10px;
+  width: 45px;
+  height: 2px;
+  background-color: #252525;
+}
+
+.services_container_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services_container {
+  width: 373px;
+  height: 260px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.services_container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #4caf50;
+}
+
+.services_container:hover .circle_img {
+  transition: all 0.3s linear;
+  opacity: 1;
+}
+
+.services_container:hover .services_container_button {
+  transition: all 0.3s linear;
+  opacity: 1;
+}
+
+.services_container:hover::after {
+  width: 100%;
+  transition: all 0.3s linear;
+}
+
+.title_wrapper {
+  width: 281px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 43px;
+  /* padding-right: 48px; */
+}
+
+.circle {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0 0 50px #ccc;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.circle_img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 13px;
+  left: 13px;
+  opacity: 0.5;
+}
+
+.services_container_title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.services_container_title::after {
+  content: "";
+  display: block;
+  bottom: 10px;
+  width: 35px;
+  height: 2px;
+  background-color: #252525;
+  margin-top: 15px;
+  margin-bottom: 19px;
+}
+
+.services_container_text {
+  width: 281px;
+  font-family: "OpenSans";
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1.008px;
+  color: #777777;
+  margin-bottom: 19px;
+  margin-left: 43px;
+}
+
+.services_container_button {
+  margin-left: 43px;
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: #252525;
+  opacity: 0.5;
+}

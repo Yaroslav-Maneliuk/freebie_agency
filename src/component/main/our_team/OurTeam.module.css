@@ -1,0 +1,123 @@
+.wrapper {
+  width: 1800px;
+  background-color: #fbfbfb;
+}
+
+.team_module {
+  width: 1175px;
+  padding-top: 129px;
+  padding-bottom: 160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.team_title {
+  margin-bottom: 74px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 3.072px;
+  color: #252525;
+  text-transform: capitalize;
+}
+
+.team_title::after {
+  content: "";
+  display: block;
+  bottom: 10px;
+  width: 45px;
+  height: 2px;
+  background-color: #252525;
+}
+
+/* -- person container -- */
+
+.person_container_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person_container {
+  position: relative;
+  width: 370px;
+  height: 398px;
+}
+
+.person_container_image {
+  display: block;
+  width: 370px;
+  height: 398px;
+}
+
+.person_container_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  opacity: 0.5;
+  overflow: hidden;
+  width: 370px;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.person_container:hover .person_container_overlay {
+  height: 35%;
+  opacity: 0.92;
+}
+
+.person_container_text {
+  text-align: center;
+  white-space: nowrap;
+  color: #252525;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.person_container_text__name,
+.person_container_text__position {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.152px;
+}
+.person_container_text__name {
+  text-transform: uppercase;
+}
+
+.person_container_text__name::after {
+  content: "";
+  display: block;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45px;
+  height: 2px;
+  background-color: #252525;
+}
+
+.person_container_text__position {
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.person_container_text__phrase {
+  font-family: "OpenSans", sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1.008px;
+
+  color: #777777;
+}

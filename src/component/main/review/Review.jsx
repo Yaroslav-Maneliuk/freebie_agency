@@ -9,13 +9,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const Review = () => {
-
-  // new Swiper(".mySwiper", {
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev",
-  //   },
-  // })
   return (
     <>
       <Swiper
@@ -160,8 +153,6 @@ const Review = () => {
             </div>
           </div>
         </SwiperSlide>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </Swiper>
     </>
   )

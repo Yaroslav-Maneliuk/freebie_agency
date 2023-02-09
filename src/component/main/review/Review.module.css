@@ -71,16 +71,6 @@
   opacity: 0.5;
 }
 
-.swiper-button-prev::after{
-content: "--";
-width: 20px;
-height: 20px;
-position: absolute;
-color: red;
-}
-.swiper-button-next::after{
-  content: "++";
-}
 
 /* -- rating -- */
 .rating {

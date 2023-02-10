@@ -1,8 +1,6 @@
 .wrapper {
   width: 1800px;
   background-color: #fff;
-
-  /* align-items: center; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -18,7 +16,7 @@
   z-index: 50;
 }
 
-.introduction_module_left{
+.introduction_module_left {
   position: relative;
   z-index: 999;
 }
@@ -71,13 +69,13 @@
   background-color: #252525;
 }
 
-.introduction_module_right_text{
+.introduction_module_right_text {
   padding-top: 331px;
   margin-bottom: 197px;
   z-index: 999;
 }
 
-.introduction_module_person_1{
+.introduction_module_person_1 {
   position: absolute;
   background-color: #fff;
   left: 195px;
@@ -86,20 +84,20 @@
   mix-blend-mode: normal;
 }
 
-.introduction_module_rectangle{
+.introduction_module_rectangle {
   content: "";
   position: absolute;
   top: 211px;
   left: 400px;
   width: 309px;
   height: 418px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   opacity: 0.8;
   z-index: 800;
   mix-blend-mode: normal;
 }
 
-.introduction_module_person_2{
+.introduction_module_person_2 {
   position: absolute;
   left: 605px;
   top: 317px;

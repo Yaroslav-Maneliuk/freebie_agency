@@ -20,7 +20,6 @@ const Header = () => {
         <p className={`${s.title} ${s.uppercase}`}>where great ideas come to life</p>
         <p className={s.subtitle}>Passionate creative studio helping startups grow their business!</p>
       </div>
-      <div className={s.clock}>CLOCK WILL BE</div>
     </section>
   )
 }
